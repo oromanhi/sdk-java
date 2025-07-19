@@ -8,12 +8,12 @@ source "https://rubygems.org"
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 
-gem "jekyll", "~> 3.9"
-gem "github-pages", group: :jekyll_plugins
+gem "jekyll", "~> 3.9", ">= 3.9.1"
+gem "github-pages", ">= 224", group: :jekyll_plugins
 
-gem "just-the-docs"
+gem "just-the-docs", ">= 0.4.0"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.15"
+  gem "jekyll-feed", "~> 0.16", ">= 0.16.0"
 end
